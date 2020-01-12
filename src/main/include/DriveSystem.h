@@ -18,7 +18,7 @@
 #include <frc/SpeedController.h>
 
 //navX
-#include "AHRS.h"				//add vendor library
+//#include "AHRS.h" //add vendor library
 
 class DriveSystem
 {
@@ -44,7 +44,7 @@ private:
 
 	frc::MecanumDrive * driveTrain; //Drivetrain
 
-    AHRS * navxGyro; //navX drive
+   // AHRS * navxGyro; //navX drive
 
 	//Desired Gyro Angle
 	double m_desiredAngle;
